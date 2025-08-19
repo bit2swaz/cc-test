@@ -1,7 +1,7 @@
+import React from "react";
 import UserProfile from "./UserProfile";
 
 // This component receives 'user' but doesn't use it directly.
-// It only passes it down to another component.
 function Dashboard({
   user,
 }: {
