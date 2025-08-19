@@ -1,3 +1,5 @@
+import React from "react";
+
 // This component finally uses the 'user' prop that was passed down.
 function UserProfile({ user }: { user: { name: string; email: string } }) {
   return (
