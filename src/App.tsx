@@ -1,3 +1,4 @@
+import React from "react";
 import Dashboard from "./Dashboard";
 
 // A mock user data object
@@ -9,9 +10,8 @@ const mockUser = {
 
 function App() {
   // 1. HARDCODED SECRET: This should be detected.
-  // An obviously fake but structurally correct API key.
   const STRIPE_API_SECRET = "sk_test_51M...aVeryLongAndRandomString...3aB4cD";
-  console.log("Using secret key:", STRIPE_API_SECRET); // To ensure it's "used"
+  console.log("Using secret key:", STRIPE_API_SECRET);
 
   return (
     <div>
